@@ -87,6 +87,13 @@ class Header extends Component {
             <a title={title}>{this.renderLogo(logo)}</a>
           </Link>
         </h1>
+        <h1 className={styles.branding}>
+          <Link
+            href="www.itera.no"
+          >
+            <a title={title}>{this.renderLogo(logo)}</a>
+          </Link>
+        </h1>
         <nav className={styles.nav}>
           <ul className={styles.navItems}>
             {navItems &&
